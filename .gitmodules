@@ -1,0 +1,6 @@
+[submodule "packer"]
+	path = packer
+	url = git@github.com:cosandr/packer.git
+[submodule "terraform"]
+	path = terraform
+	url = git@github.com:cosandr/terraform.git
