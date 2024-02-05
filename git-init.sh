@@ -13,6 +13,7 @@ declare -A gitlab_map=(
     ["ansible/roles/nginx"]="git@${GITLAB_DOMAIN}:andrei/ansible-nginx.git"
     ["ansible/roles/prometheus"]="git@${GITLAB_DOMAIN}:andrei/ansible-prometheus.git"
     ["ansible/roles/lego"]="git@${GITLAB_DOMAIN}:andrei/ansible-role-lego.git"
+    ["ansible/roles/btrfs"]="git@${GITLAB_DOMAIN}:andrei/ansible-role-btrfs.git"
     ["packer"]="git@${GITLAB_DOMAIN}:andrei/packer.git"
     ["terraform"]="git@${GITLAB_DOMAIN}:andrei/terraform.git"
     ["network"]="git@${GITLAB_DOMAIN}:andrei/network.git"
