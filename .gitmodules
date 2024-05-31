@@ -13,3 +13,6 @@
 [submodule "ansible-role-skeleton"]
 	path = ansible-role-skeleton
 	url = git@github.com:cosandr/ansible-role-skeleton.git
+[submodule "ansible-private"]
+	path = ansible-private
+	url = git@github.com:cosandr/ansible-private.git

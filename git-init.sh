@@ -5,6 +5,7 @@ GITLAB_DOMAIN="gitlab.$(cd ansible && ansible-inventory --host gitlab01 | jq -r 
 declare -A gitlab_map=(
     ["."]="git@${GITLAB_DOMAIN}:andrei/homelab.git"
     ["ansible"]="git@${GITLAB_DOMAIN}:andrei/ansible.git"
+    ["ansible-private"]="git@${GITLAB_DOMAIN}:andrei/ansible-private.git"
     ["ansible/ansible_collections/andrei/utils"]="git@${GITLAB_DOMAIN}:andrei/ansible-collection-utils.git"
     ["ansible/roles/firewall_config"]="git@${GITLAB_DOMAIN}:andrei/ansible-role-firewall-config.git"
     ["ansible/roles/thanos"]="git@${GITLAB_DOMAIN}:andrei/ansible-role-thanos.git"
